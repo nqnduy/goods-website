@@ -10,6 +10,9 @@
     box-sizing: border-box;
     font-kerning: none;
 }
+a {
+    color: black;
+}
 html {
     font-size: 62.5%;
 }
@@ -19,6 +22,7 @@ body {
     margin: auto;
     // @include text(var(--body18-fs), $font-main, var(--body18-lh), $black30-cl, none);
     background: $white100-cl;
+    font-family: Robo;
     @include customscroll();
     .wrapper {
         position: relative;

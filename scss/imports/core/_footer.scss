@@ -1,0 +1,93 @@
+ .footer {
+        .section1 {
+            display: flex;
+            border-top: 1px solid #c4c4c496;
+            margin: 30px 0;
+            padding: 20px 0;
+            border-bottom: 1px solid #c4c4c496;
+        }
+        &__text {
+            margin-right: 50px;
+            &-list {
+            font-size: 14px;
+            margin-top: 10px;
+            &-item {
+                padding: 10px 0;
+            }
+            }
+        }
+        .section2 {
+            display: flex;
+            justify-content: space-between;
+            &__left {
+                .logo {
+                    img {
+                        max-height: 70px;
+                        width: auto;
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    letter-spacing: 0.5px;
+                    word-spacing: 0.5px;
+                    line-height: 1.5em;
+                }
+                .company, .address {
+                    font-weight: bold;
+                }
+
+            }
+            &__right {
+                &-icons {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    img {
+                        margin: 0 10px;
+                        width: 40px;
+                        height: 40px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+                &-contact {
+                    padding-right: 50px;
+                    .phone, .email {
+                        display: flex;
+                        align-items: center;
+                        padding: 8px 0;
+                        img {
+                            width: 25px;
+                            height: auto;
+                            margin-right: 20px;
+                        }
+                        p {
+                            font-weight: 600;
+                            font-size: 14px;
+                            letter-spacing: 0.4px;
+                        }
+                    }
+                }
+            }
+        }
+        .bocongthuong {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            img {
+                max-height: 80px;
+            }
+        }
+        .section3 {
+            border-top: 1px solid #c4c4c496;
+            padding: 10px 0;
+            text-align: center;
+            p {
+                font-size: 12px;
+                letter-spacing: 0.5px;
+                word-spacing: 0.5px;
+                line-height: 1.5em;
+                font-weight: bold;
+            }
+        }
+    }
